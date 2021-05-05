@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    border: 4px solid black;
+    display: flex;
+}
+
+.colNumber {
+    width: 70px;
+    height: 560px;
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    width: 560px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 70px;
+    height: 70px;
+}
+
+.letter {
+    text-align: center;
+    line-height: 70px;
+}
+
+.b {
+    background: black;
+}
+
+.w {
+    background: #99978f;
+}
