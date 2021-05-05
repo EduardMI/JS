@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+
+.content {
+    width: 650px;
+    height: 600px;
+    background-color: burlywood;
+}
+.basket {
+    width: 300px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.pBascet {
+    padding: 20px 5px;
+    text-align: center;
+}
