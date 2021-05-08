@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border: 1px solid black;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.catalog {
+    width: 540px;
+    height: 200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 120px;
+    border: 1px solid violet;
+    text-align: center;
+}
+
+.basket {
+    margin: 20px auto;
+}
