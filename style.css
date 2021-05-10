@@ -1,0 +1,51 @@
+.container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border: 1px solid black;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.catalog {
+    width: 540px;
+    height: 200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    width: 120px;
+    border: 1px solid violet;
+    text-align: center;
+}
+
+.basket {
+    margin: 20px auto;
+    width: 540px;
+    height: 180px;
+    text-align: center;
+}
+
+.popupBasket {
+    width: 650px;
+    min-height: 200px;
+    display: none;
+    position: fixed;
+    background-color: beige;
+    top: 50px;
+    left: calc(50% - 325px);
+    padding: 20px;
+}
+
+.popupAdress {
+    width: 650px;
+    min-height: 400px;
+    display: none;
+    position: fixed;
+    background-color: burlywood;
+    top: 50px;
+    left: calc(50% - 325px);
+    padding: 20px;
+}
